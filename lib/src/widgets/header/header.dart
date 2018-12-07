@@ -22,7 +22,7 @@ class Header extends StatelessWidget {
       Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
-          SizedBox(height: 15.0),
+          SizedBox(height: 30.0),
           Row(
             children: <Widget>[
               SizedBox(width: 15.0,),

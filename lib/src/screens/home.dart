@@ -27,6 +27,8 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
 
   @override
   Widget build(BuildContext context) => Scaffold(
+    primary: false,
+    appBar: PreferredSize(child: Container(), preferredSize: Size(0.0, 0.0)),
     body: ListView(
       children: <Widget>[
         Column(

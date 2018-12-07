@@ -1,6 +1,8 @@
-# flutter_furniture_app
+# Flutter - Furniture App
 
-A new Flutter project.
+Flutter custom design
+
+![Final results](/captures/home.gif?raw=true "UI/UX")
 
 ## Getting Started
 

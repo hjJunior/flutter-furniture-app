@@ -3,6 +3,8 @@ import '../widgets/header_bubble_left.dart';
 import '../widgets/header_bubble_right.dart';
 import '../widgets/header_avatar.dart';
 import '../widgets/header_right_menu.dart';
+import '../widgets/header_title.dart';
+import '../widgets/header_subtitle.dart';
 
 class Home extends StatelessWidget {
   @override
@@ -28,10 +30,14 @@ class Home extends StatelessWidget {
                       children: <Widget>[
                         SizedBox(width: 15.0,),
                         HeaderAvatar(),
-                        SizedBox(width: MediaQuery.of(context).size.width - 125.0,),
+                        SizedBox(width: MediaQuery.of(context).size.width - 120.0,),
                         HeaderRightMenu(),
                       ],
-                    )
+                    ),
+                    SizedBox(height: 50.0,),
+                    HeaderTitle(),
+                    SizedBox(height: 15.0,),
+                    HeaderSubtitle()
                   ],
                 )
               ],
